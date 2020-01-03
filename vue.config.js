@@ -1,3 +1,6 @@
+var path = require('path')
 module.exports = {
-  assetsPublicPath: './'
+  build: {
+    assetsPublicPath: '/'
+  }
 }
